@@ -26,5 +26,5 @@ I built this project to practice frontend fundamentals and replicate a minimalis
 - How to replicate a UI design accurately
 - The importance of matching behavior before styling
 
- ##Preview 
-![Counter app screenshot](counter.png)
+## Preview
+ ![Counter app screenshot](counter.png)
