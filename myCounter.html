@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>myCounter</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <section id="landing" class="view">
+    <h1 class="landing-title">My Counter</h1>
+    <p class="landing-subtitle">A simple tool for counting things and keeping track of numbers.</p>
+  </section>
+
+  <main id="counter-app" class="view view--hidden">
+    <header class="top-icons">
+      <button type="button" class="icon-btn" aria-label="Info">i</button>
+      <button type="button" class="icon-btn" aria-label="Settings">⋮</button>
+      <button type="button" class="icon-btn" id="reset" aria-label="Reset">↺</button>
+    </header>
+
+    <div class="counter-display" id="counter-value">0</div>
+
+    <button type="button" class="circle-btn" id="decrement" aria-label="Decrease">−</button>
+    <button type="button" class="circle-btn" id="increment" aria-label="Increase">+</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
